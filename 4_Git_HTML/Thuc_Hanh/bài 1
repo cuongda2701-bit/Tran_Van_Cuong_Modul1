@@ -13,12 +13,12 @@
             <li>4.Đà Nẵng </li>
         </ul>
         <h1>Hoa Kỳ</h1>
-        <ul style="list-style-type: none ">
+        <ol style="list-style-type: none ">
             <li>1.New York </li>
             <li>2.Los Angeles </li>
             <li>3.Chicago </li>
             <li>4.Hoston </li>
-        </ul>
+        </ol>
         <h1>Trung Quốc</h1>
         <ul style="list-style-type: none ">
             <li>1.Beijing </li>
