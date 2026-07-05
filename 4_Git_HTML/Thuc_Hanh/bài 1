@@ -7,8 +7,8 @@
 <body>
         <h1>Việt Nam</h1>
         <ul style="list-style-type: none ">
-            <li>1.Hà Nội</li>
-            <li>2.Sài Gòn</li>
+            <li>1.Hà Nội </li>
+            <li>2.Sài Gòn </li>
             <li>3.Huế </li>
             <li>4.Đà Nẵng </li>
         </ul>
@@ -22,7 +22,7 @@
         <h1>Trung Quốc</h1>
         <ul style="list-style-type: none ">
             <li>1.Beijing </li>
-            <li>2.Chongqing </li>
+            <li>2.Chongqing</li>
             <li>3.Shanghai </li>
             <li>4.Tianjin </li>
         </ul> 
