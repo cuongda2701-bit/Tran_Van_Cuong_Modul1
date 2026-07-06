@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trang CV Cá Nhân</title>
+    <ul style=" list-style-type : disc " >
+  <head>
+  <body>
+      <h2 ="title">Trang CV Cá Nhân</h2>
+      <hr>
+      <h3>Học Sinh Chăm Chỉ Nhất Của - Mục Tiêu Thành Thạo HTML</h3>
+      <hr>
+      <h2 ="title"> Thông Tin Cá Nhân</h2>
+      <ul>
+        <h3>Họ và Tên: Trần Văn Cương</h3>
+          
+       <h3>Địa chỉ: 312 lê văn hiến</h3>
+      </ul>
+      <ul>
+       <h3>Email: cuongda2701@gmail.com </h3>
+        <h3> SĐT: 0788559955 </h4>
+      </ul>
+      <hr>
+    <h1 ="title">Học Lực</h1>
+      <ul>
+       <h3> Học Vấn:</h3>
+          <li>THPT: 10/12</li>
+          <li>Xếp Loại: Tốt</li>
