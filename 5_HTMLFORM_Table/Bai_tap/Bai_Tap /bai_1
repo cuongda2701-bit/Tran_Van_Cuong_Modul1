@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> SỞ THÍCH CỦA BẠN </title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<style>
+table{
+border-collapse: collapse;
+border:
+}
+</style>
+<body>
+<table>
+      <tr style="background-color: red; color: white">
+         <td></td>
+         <td style="padding-left: 30px"> SỞ THÍCH CỦA BẠN </td>
+      </tr>
+      <tr>
+        <td style="color: blue "> Họ và tên: </td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td style="color: blue ">Email:</td>
+        <td><input type="email"></td>
+      </tr>
+      <tr>
+        <td style="color: blue ">Sở thích</td>
+        <td>
+        <input type="checkbox" value=" Thể thao"><span style="color: orange ">Thể thao</span>
+        <input type="checkbox" value="Âm nhạc"><span style="color: orange ">Âm nhạc</span>
+        <input type="checkbox" value="Đọc sách"><span style="color: orange ">Đọc sách</span>
+        
+      <br>
+        <input type="checkbox" value="Lướt  "> <span style="color: orange ">Lướt Wed </span>
+        <input type="checkbox" value="Chơi game"> <span style="color: orange ">Chơi game </span>
+        <input type="checkbox" value="Điện ảnh "> <span style="color: orange ">Điện ảnh </span>
+      <br>
+      <tr>
+        <td>
+        <input type="submit" value="Gửi thông tin">
+        <input type="reset" value="Nhập lại">
+        </td>
+
+      </tr>
+      <table/> 
