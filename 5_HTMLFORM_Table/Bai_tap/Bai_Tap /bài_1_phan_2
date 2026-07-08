@@ -1,0 +1,61 @@
+bài_1_phan_2
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> SỞ THÍCH CỦA BẠN </title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+  <body>
+      <table style="background-color: yellow; width: 100%;">
+        
+        <tr>
+          <td style="color : blue "> ĐĂNG KÝ HỌC VIÊN  </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="color : blue "> Họ và Tên </td>
+          <td><input type="text" </td>
+        </tr>
+        <tr>
+          <td style="color : blue ">Ngày sinh</td>
+          <td><input type="date" </td>
+        </tr>
+        <tr>
+          <td style="color :blue ">Giới tính</td>
+          <td>
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+        </tr>
+        <tr>
+          <td style="color :blue ">Địa chỉ</td>
+          <td><input type="text" ></td>
+        </tr>
+        <tr>
+          <td style="color :blue "> Lớp </td>
+          <td>
+            <select name="lop"> 
+           <option value="" selected disabled >-- Chọn --</option>
+           <option value="10A"> 10A</option>
+           <option value="10B"> 10B</option>
+            </td>
+        </tr>
+        <tr>
+          <td style="color :blue "> Email</td>
+          <td><input type="email" ></td>
+        </tr>
+        <tr>
+          <td style="color :blue ">Điện thoại</td>
+          <td><input type="text"</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="register">
+            <input type="submit" value="enter">
+        </td>
+        </tr>
+
+     
+      <table/> 
