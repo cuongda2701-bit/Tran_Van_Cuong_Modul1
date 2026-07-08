@@ -37,6 +37,7 @@ border:
         <input type="checkbox" value="Điện ảnh "> <span style="color: orange ">Điện ảnh </span>
       <br>
       <tr>
+        <td></td>
         <td>
         <input type="submit" value="Gửi thông tin">
         <input type="reset" value="Nhập lại">
