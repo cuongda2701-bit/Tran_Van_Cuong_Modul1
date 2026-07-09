@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+      <h1>Thời khóa biểu T09081I </h1>
+      <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+  }
+  
+</style>
+      <table> 
+      <tr bgcolor="yellow">
+        <td> Thứ 3</td>
+        <td> Thứ 5</td>
+        <td> Thứ 7</td>
+      </tr>
+      <tr>
+        <br>
+        <td> CF- T1,L1 </td>
+        
+        <td> CF- T2,L2</td>
+        
+        <td> CF- T3,L3</td>
+      </tr>
+      <tr>
+        <br>
+        <td> CF -T4,L4</td>
+        <td> CF -written text </td>
+        <td> C - T1,L1</td>
+        </table>
+      </tr>
+  </body>
+</html> 
