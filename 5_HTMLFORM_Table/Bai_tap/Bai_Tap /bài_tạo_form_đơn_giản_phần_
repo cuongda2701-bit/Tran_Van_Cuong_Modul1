@@ -16,11 +16,11 @@ bài_1_phan_2
         </tr>
         <tr>
           <td style="color : blue "> Họ và Tên </td>
-          <td><input type="text" </td>
+          <td><input type="text"></td>
         </tr>
         <tr>
           <td style="color : blue ">Ngày sinh</td>
-          <td><input type="date" </td>
+          <td><input type="date"></td>
         </tr>
         <tr>
           <td style="color :blue ">Giới tính</td>
@@ -47,7 +47,7 @@ bài_1_phan_2
         </tr>
         <tr>
           <td style="color :blue ">Điện thoại</td>
-          <td><input type="text"</td>
+          <td><input type="text"></td>
         </tr>
         <tr>
           <td></td>
