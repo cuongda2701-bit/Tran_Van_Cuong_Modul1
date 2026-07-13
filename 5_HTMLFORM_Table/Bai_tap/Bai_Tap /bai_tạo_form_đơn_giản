@@ -11,6 +11,7 @@ border:
 }
 </style>
 <body>
+<form>
 <table>
       <tr style="background-color: red; color: white">
          <td></td>
@@ -44,4 +45,6 @@ border:
         </td>
 
       </tr>
-      <table/> 
+      </table> 
+      </form>
+      </body>
