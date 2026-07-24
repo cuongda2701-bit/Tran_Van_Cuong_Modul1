@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <table>
+        
+        <tr>
+          <td> BMI </td>
+          <td> Interpretation</td>
+        </tr>
+        <tr>
+          <td colspan="2"><hr></td>
+        </tr>
+        <tr>
+          <td> BMI < 18,5 </td>
+          <td> Underweight </td>
+        </tr>
+        <tr> 
+          <td> 18,5 ≤ BMI < 25.0</td>
+          <td> Normal </td>
+        </tr>
+        <tr>
+          <td> 25.0 ≤ BMI < 30.0 </td>
+          <td> Overweight </td>
+        </tr>
+        <tr>
+          <td> 30 ≤ BMI </td>
+          <td> Obese </td>
+        </tr>
+      </table>
+      <br>
+      <script>
+        let weight =65;
+        let height =1.75;
+        let bmi = weight / ( height **2 )
+        if (bmi < 18.5)
+    document.write("Underweight");
+else if (bmi < 25.0)
+    document.write("Normal");
+else if (bmi < 30.0)
+    document.write("Overweight");
+else
+    document.write("Obese");
+      </script>
+      
+  </body>
+</html>
