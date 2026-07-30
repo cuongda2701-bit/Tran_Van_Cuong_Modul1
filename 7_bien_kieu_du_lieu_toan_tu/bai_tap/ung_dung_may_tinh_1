@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Demo Calculator</title>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<input type="number" id="number1" value="0">
+<input type="number" id="number2" value="0">
+
+<br>
+<button onclick="maytinh('+')" >Addition (+) </button>
+<button onclick="maytinh('-')" >Subtraction (-) </button>
+<button onclick="maytinh('*')" >Multiplication (*) </button>
+<button onclick="maytinh('/')" >Devision (/) </button>
+
+<h3>Result: <span id= "result">Kết quả </span></h3>
+</body>
+<script>
+function maytinh(dau) {
+let number1=Number (document.getElementById("number1").value);
+let number2=Number (document.getElementById("number2").value);
+let result;
+if (dau=='+'){
+result=number1 + number2;
+}
+else if (dau == "-"){
+result=number1 - number2;
+}
+else if (dau == "*"){
+result=number1 * number2;
+}
+else if(dau =="/"){
+if (number2==0){
+result = "Không thế chia cho 0";
+}else{
+result=number1 / number2;
+}
+}else{
+result="Phép tính không đúng";
+}
+document.getElementById ("result").innerHTML = result;
+}
+</script>
+</html> 
