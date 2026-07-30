@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Chuyển C sang F  </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    
+      <table>
+        <tr>
+          <td> <h4>Amount</h4> </td>
+          <td> <h4> From Currency</td> 
+          <td> <h4> To Currenct</h4></td>
+          <td></td>
+        </tr>
+        <br>
+        <tr>
+          <td>
+             <input type="number"name="money" value='1'></td>
+          <td> 
+            <select name="salary">
+            <option value="" selected disabled>-- tỷ giá tiền tệ --</option> 
+            <option value="VietNam">VietNam</option>
+            <option value="USD">USD</option>
+            <option value="JPY">JPY</option>
+             </td>
+          <td> 
+             <select name="money">
+            <option value="" selected disabled>-- tỷ giá tiền tệ --</option>
+            <option value="USD">USD</option>
+            <option value="Franc">GBD</option>
+            </td>
+           <td><input type="button" value="Convert"></td>
+        </tr>
+      </table>
+      <script>
+        var vnd = 1
+        var usd = 23000
+        var vnd_usd = 1*23000
+        document.write( vnd_usd )
+      </script>
+
+  </body>
+</html> 
