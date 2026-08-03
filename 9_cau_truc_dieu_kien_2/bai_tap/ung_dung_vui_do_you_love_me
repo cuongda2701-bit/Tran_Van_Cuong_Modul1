@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Do you love love me?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    #no {
+      position : absolute ;
+    }
+  </style>
+  <body>
+    <h1> Do you love me?</h1>
+    <button onclick="love()">Love </button>
+    <button id="no" onmouseover="no()">NO</button>
+    <script>
+      function love(){
+        alert("I love you");
+      }
+      function no() {
+        let x= Math.random() * window.innerWidth;
+        let y= Math.random() * window.innerHeight;
+        document.getElementById("no").style.left = x+"px";
+        document.getElementById("no").style.left = y+"px";
+      }
+
+    </script>
+  </body>
+</html> 
