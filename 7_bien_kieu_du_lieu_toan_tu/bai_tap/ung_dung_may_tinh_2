@@ -39,7 +39,7 @@
     </style>
   <body> 
     <div class=" a ">
-    <input type="number" id="number1" value="">
+    <input type="text" id="number1" value="">
 
     <br>
     <button onclick ="number('1')">1</button> 
@@ -62,42 +62,42 @@
     <button onclick ="maytinh('=')">=</button>
     <button onclick ="maytinh('/')">/</button>
     </div>
-   
     <script>
-      let number1 ="";
-      let result =""; 
-      let number2 =""; 
-      let nhappheptinh =""; 
-      function number(so){
-        document.getElementById("number1").value += so
+      let number1 ='';
+      let pheptinh='';
+      function number(a){
+        document.getElementById('number1').value += a;
       }
-      function maytinh(dau) {
- 
- number1 = Number(document.getElementById("number1").value);
- result; 
-switch ( dau ){
-case "+":
-result = number1 + number2;
-break;
-case "-":
-result = number1 - number2;
-break;
-case "*":
-result = number1 * number2;
-case "/" :
-if (number2 === 0) {
-result = "Không thể chia cho 0"
-} else {
-result = number1 / number2;
-}
-break;
-default:
-result = "Phép tính không đúng";
-break;}
-document.getElementById("number1").innerHTML = result;
+        function maytinh(b) {
+        if (b=='='){
+          let number2=document.getElementById('number1').value;
+          if (pheptinh=='+'){
+          document.getElementById('number1').value=number1 + number2;
+        }
+          else if(pheptinh=='-'){
+          document.getElementById('number1').value=number1 - number2;
+        }
+          else if(pheptinh=='*'){
+          document.getElementById('number1').value=number1 * number2;
+        }
+          else if(pheptinh=='/'){
+          document.getElementById('number1').value=number1 / number2;
+        }
+        }else{
+          number1 =document.getElementById('number1').value;
+          pheptinh= b; 
+          document.getElementById('number1').value='';
+        }
       }
-</script>
+      function remove(a){
+        if (a=='C'){
+        document.getElementById('number1').value=''
+        number1 ="";
+        pheptinh="";
+      }
 
-   
-  </body>
-</html>
+      }
+
+    </script>
+    </body>
+</html> 
