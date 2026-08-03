@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Demo calculator </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+        body{
+            font-family: Arial;
+        }
+
+        .a{
+            width:350px;
+            border:5px solid black;
+            padding:15px;
+        }
+
+        input{
+            width:95%;
+            height:50px;
+            font-size:30px;
+            text-align:right;
+            margin-bottom:20px;
+        }
+
+        button{
+            width:70px;
+            height:50px;
+            margin:5px;
+            font-size:25px;
+            color:blue;
+            background:white;
+            border:2px solid #ddd;
+        }
+
+        button:hover{
+            background:#eee;
+        }
+    </style>
+  <body> 
+    <div class=" a ">
+    <input type="text" id="number1" value="">
+
+    <br>
+    <button onclick ="number('1')">1</button> 
+    <button onclick ="number('2')">2</button> 
+    <button onclick ="number('3')">3</button>
+    <button onclick ="maytinh('+')">+</button> 
+    <br>
+    <button onclick ="number('4')">4</button>
+    <button onclick ="number('5')">5</button>
+    <button onclick ="number('6')">6</button> 
+    <button onclick ="maytinh('-')">-</button> 
+    <br> 
+    <button onclick ="number('7')">7</button> 
+    <button onclick ="number('8')">8</button> 
+    <button onclick ="number('9')">9</button> 
+    <button onclick ="maytinh('*')">*</button> 
+    <br>
+    <button onclick ="remove('C')">C</button>
+    <button onclick ="number('0')">0</button> 
+    <button onclick ="maytinh('=')">=</button>
+    <button onclick ="maytinh('/')">/</button>
+    </div>
+    <script>
+      let number1 ='';
+      let pheptinh='';
+      function number(a){
+        document.getElementById('number1').value += a;
+      }
+        function maytinh(b) {
+        if (b=='='){
+          let number2=document.getElementById('number1').value;
+          if (pheptinh=='+'){
+          document.getElementById('number1').value=number1 + number2;
+        }
+          else if(pheptinh=='-'){
+          document.getElementById('number1').value=number1 - number2;
+        }
+          else if(pheptinh=='*'){
+          document.getElementById('number1').value=number1 * number2;
+        }
+          else if(pheptinh=='/'){
+          document.getElementById('number1').value=number1 / number2;
+        }
+        }else{
+          number1 =document.getElementById('number1').value;
+          pheptinh= b; 
+          document.getElementById('number1').value='';
+        }
+      }
+      function remove(a){
+        if (a=='C'){
+        document.getElementById('number1').value=''
+        number1 ="";
+        pheptinh="";
+      }
+
+      }
+
+    </script>
+    </body>
+</html> 
