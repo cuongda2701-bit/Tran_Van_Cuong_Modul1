@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game puzzle </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+      img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    margin:15px 0;
+    border-radius:18px;
+    cursor:pointer;
+    border:5px solid white;
+    transition:.4s;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+img:hover{
+    transform:scale(1.05);
+    border-color:#00E5FF;
+    box-shadow:0 0 30px #00E5FF;
+}
+</style>
+  <body>   
+    <div class ="container">
+      <img onclick="change1()" id ="img1" src="https://cdn.pixabay.com/photo/2020/03/12/15/36/bridge-4925412_1280.jpg">
+      <img onclick="change2()" id ="img2" src="https://suarapena.com/wp-content/uploads/2023/12/jembatan-berendeng-kota-tangerang.jpg">
+      <img onclick="change3()" id ="img3" src="https://media.istockphoto.com/id/492023711/photo/beautiful-bridge-in-taipei.jpg?s=170667a&w=0&k=20&c=cQbZjuEajNYmc5zJ4x_0ideI2LUhlzplD6eLgreOeSs=">
+      <div class="win"></div>
+      </div>
+      <script>
+        function change1(){
+          let img= document.getElementById("img1");
+          if(img.src.includes("2020/03/12/15/36/bridge-4925412_1280.jpg")){
+            img.src="https://suarapena.com/wp-content/uploads/2023/12/jembatan-berendeng-kota-tangerang.jpg";
+         }else if( img.src.includes("2023/12/jembatan-berendeng-kota-tangerang.jpg")){
+            img.src="https://media.istockphoto.com/id/492023711/photo/beautiful-bridge-in-taipei.jpg?s=170667a&w=0&k=20&c=cQbZjuEajNYmc5zJ4x_0ideI2LUhlzplD6eLgreOeSs=";
+         }else {
+            img.src="https://cdn.pixabay.com/photo/2020/03/12/15/36/bridge-4925412_1280.jpg";
+         }
+           checkwin(); 
+         }
+         function change2(){
+          let img= document.getElementById("img2");
+          if(img.src.includes("2020/03/12/15/36/bridge-4925412_1280.jpg")){
+            img.src="https://suarapena.com/wp-content/uploads/2023/12/jembatan-berendeng-kota-tangerang.jpg";
+         }else if( img.src.includes("2023/12/jembatan-berendeng-kota-tangerang.jpg")){
+            img.src="https://media.istockphoto.com/id/492023711/photo/beautiful-bridge-in-taipei.jpg?s=170667a&w=0&k=20&c=cQbZjuEajNYmc5zJ4x_0ideI2LUhlzplD6eLgreOeSs=";
+         }else{
+            img.src="https://cdn.pixabay.com/photo/2020/03/12/15/36/bridge-4925412_1280.jpg";
+         }
+           checkwin(); 
+         }
+         function change3(){
+          let img= document.getElementById("img3");
+          if(img.src.includes("2020/03/12/15/36/bridge-4925412_1280.jpg")){
+            img.src="https://suarapena.com/wp-content/uploads/2023/12/jembatan-berendeng-kota-tangerang.jpg";
+         }else if( img.src.includes("2023/12/jembatan-berendeng-kota-tangerang.jpg")){
+            img.src="https://media.istockphoto.com/id/492023711/photo/beautiful-bridge-in-taipei.jpg?s=170667a&w=0&k=20&c=cQbZjuEajNYmc5zJ4x_0ideI2LUhlzplD6eLgreOeSs=";
+         }else {
+            img.src="https://cdn.pixabay.com/photo/2020/03/12/15/36/bridge-4925412_1280.jpg";
+         }
+           checkwin(); 
+         }
+         function checkwin() {
+          let img1=document.getElementById("img1").src;
+          let img2=document.getElementById("img2").src;
+          let img3=document.getElementById("img3").src;
+         } if(img1===img2&&img2===img3 ){
+          document.getElementById("win").innerHTML="Bạn đã chiến thắng";
+         } else{
+          document.getElementById("win").innerHTML="";
