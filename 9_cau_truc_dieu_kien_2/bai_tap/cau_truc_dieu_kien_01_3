@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bài 3 !</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let n=-4
+        if(n>0){
+          document.write( " số n " + n +" lớn hơn 0")
+        
+        }else{
+          document.write( "số n " + n+" bé hơn 0")
+        } 
+       
+    
+      </script>
+  </body>
+</html> 
