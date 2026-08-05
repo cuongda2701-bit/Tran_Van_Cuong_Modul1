@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bài 4 !</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+       let a = 15
+       let b = 20
+       let c = 25
+       let max = a 
+       if ( b > max ){
+        max=b 
+       }
+       if ( c > max ){
+        max=c
+       }
+       document.write("Số lớn nhất trong 3 số (" + a + ", " + b + ", " + c + ") là: " + max);
+
+
+      </script>
+  </body>
+</html> 
