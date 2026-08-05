@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bài 2 !</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let tuoi=14
+        if (tuoi<10){
+          document.write("học sinh " + tuoi +" không được học lớp 10 ")
+        } else {
+          document.write("học sinh " + tuoi +" được học lớp 10 ")
+        }
+       
+    
+      </script>
+  </body>
+</html> 
