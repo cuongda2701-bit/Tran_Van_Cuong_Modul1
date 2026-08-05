@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bài 5 !</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+       let kiemtra = 8
+       let giuaki  = 7
+       let cuoiki = 9.5
+       let diemtb = ( kiemtra * giuaki * cuoiki * 3 ) /6;
+       let hocluc =""
+       if( diemtb >=8.5){
+        hocluc = "giỏi"
+       }else if ( diemtb >=6.5){
+        hocluc = "khá "
+       }else if ( diemtb >=5.0){
+        hocluc = " trung bình"
+       } else {
+        hocluc = "yếu"
+       }
+       document.write("Điểm trung bình: " + diemtb ) ;
+       document.write("xếp loại học lực:" + hocluc ) ;
+
+
+
+       
+
+
+      </script>
+  </body>
+</html> 
