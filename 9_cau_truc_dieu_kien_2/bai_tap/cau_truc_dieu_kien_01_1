@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Bài 1 !</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let a=10
+        let b=2
+        if (b===0){
+          document.write("Không chia được cho 0 ");
+       }else if(a % b === 0) {
+          document.write(a+ "chia hết cho b" +b);
+       }else{
+          document.write(a+ "không chia hết cho b" +b); 
+        }
+       
+    
+      </script>
+  </body>
+</html> 
