@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>bài tập tính tiền điện</title>
+</head>
+<body>
+<h3>Số tiền điện (kWh):</h3>
+<input type="number" id="dien">
+<button onclick="tinhtien()" >tính tiên</button>
+<h3 > Kết quả: <span id="tongtien" ></span> </h3>
+</body>
+<script>
+function tinhtien(){
+let a = document.getElementById("dien").value;
+let kq;
+if (a <-50) {
+kq = 5000;
+}else if(a > 50){
+kq = 6000;
+}
+document.getElementById("tongtien").innerHTML = kq + " VNĐ";
+}
+</script>
+</html> 
