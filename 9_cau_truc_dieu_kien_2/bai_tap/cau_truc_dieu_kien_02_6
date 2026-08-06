@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài  6  </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let a = 2
+        let b = -4
+        if  ( a===0 && b===0 ){
+          alert(" phương trình vô số nghiệm ")
+        }else if ( a===0 && b===0 ){
+          alert(" phương trình vô nghiệm ")
+        } else{
+          let x = -b / a 
+          alert ( x )
+        }
+        
+             
+      </script>
+  </body>
+</html>  
