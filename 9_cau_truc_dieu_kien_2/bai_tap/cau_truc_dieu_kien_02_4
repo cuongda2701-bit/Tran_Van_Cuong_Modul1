@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài  4 </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let a = 80 ;
+        let b = 80;
+        let dientichhcn = ( a+b ) * 2
+
+        
+        alert( dientichhcn )
+             
+      </script>
+  </body>
+</html> 
