@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài 6 </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let doanhso=150
+        let hoahong;
+        if ( doanhso <= 100 ){
+          hoahong = doanhso * 0.05;
+        } else if ( doanhso <=300 ){
+          hoahong = doanhso * 0.1;
+        }else {
+          hoahong = doanhso * 0.2; 
+        }
+        alert( "số tiền hoa hồng nhận được là :" + hoahong + " triệu "); 
+            
+      </script>
+  </body>
+</html> 
