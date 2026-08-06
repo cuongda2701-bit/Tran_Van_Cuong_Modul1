@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài 1 </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let m = 80 ;
+        let ft  = m * 3.2808 ;
+        
+        alert( ft  )
+             
+      </script>
+  </body>
+</html> 
