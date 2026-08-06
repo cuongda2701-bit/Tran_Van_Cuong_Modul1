@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài 1 </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <script>
+        let doC = 80
+        let doF = doC * 9/5 + 32
+        
+        alert( doF )
+             
+      </script>
+  </body>
+</html> 
