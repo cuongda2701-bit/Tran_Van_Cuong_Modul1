@@ -7,8 +7,8 @@
   <body>
       <script>
         let a = 80 ;
-        let b = 80;
-        let dientich = a*b
+        
+        let dientich = a*a ;
 
         
         alert( dientich )
