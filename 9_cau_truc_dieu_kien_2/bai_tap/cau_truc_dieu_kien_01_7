@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Tính cước điện thoại</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h4> Số phút đã gọi trong 1 tháng</h4>
+      <input type="number" id="sophut">
+      <button onclick="tinhcuoc()">Tính cước </button>
+      <h3> kết quả: <span id="ketqua"> </span></h3>
+      <script>
+        function tinhcuoc(){
+          let sophut= Number(document.getElementById("sophut").value);
+          let phicodinh = 250000
+          let cuocgoi = 0
+          if (sophut <= 0) {
+                document.getElementById("ketQua").innerHTML = "Số phút không hợp lệ";
+              return
+        }
+          if ( sophut > 200 ) {
+            tongcuoc= phicodinh + (50 * 600) + (150 * 400) + ((sophut - 200) * 200);
+          } else if ( sophut > 50) {
+            tongcuoc= phicodinh + (50 * 600) + ((soPhut - 50) * 400);
+          } else {
+            tongcuoc = phicodinh + ( sophut * 600 )
+          }
+          document.getElementById("ketqua").innerHTML =" Tổng cước gọi cuộc điện thoại" + tongcuoc;
+        }
+      </script>
+  </body>
+</html> 
