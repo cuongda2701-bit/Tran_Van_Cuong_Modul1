@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> bài 11 : thuế thu nhập cá  nhân</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h3> Nhập thu nhập </h3>
+      <input type="number" id="thunhap"/>
+      <button onclick="tinhthue()"> Tính thuế </button>
+      <h3 id="ketqua"></h3>
+      <script>
+        function tinhthue(){
+          let thunhap = Number(document.getElementById("thunhap").value);
+          let thue=0;
+          if (thunhap<=0){
+            document.getElementById("ketqua").innerHTML = " Thu nhập không hợp lệ ";
+          } else if(thunhap => 50000000){
+            thue = thunhap * 0.05;
+            document.getElementById("ketqua").innerHTML = "Thuế phải nộp là" + thue ;
+          } else if(thunhap => 100000000){
+            thue = thunhap* 0.1;
+            document.getElementById("ketqua").innerHTML = "Thuế phải nộp là" + thue ;
+          } else{
+            thue = thunhap * 0,15 ;
+            document.getElementById("ketqua").innerHTML = "Thuế phải nộp là" + thue ;
+            
+
+          }
+        }
+
+      </script>
+      
+  </body>
+</html> 
